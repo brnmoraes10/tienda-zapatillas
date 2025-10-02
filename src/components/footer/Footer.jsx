@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Footer.module.css';
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
+import logo from '../../images/logo.jpg';
 
 export default function Footer() {
   return (
@@ -8,7 +9,11 @@ export default function Footer() {
       <div className={styles.container}>
 
         <div className={styles.top}>
-          <div className={styles.logo}>TuEmpresa</div>
+          <div>      
+            <a href="/" className={styles.logo}>
+              <img src={logo} alt="Logo" />
+            </a>
+          </div>
 
           <nav className={styles.nav}>
             <a href="/">Inicio</a>
@@ -18,16 +23,16 @@ export default function Footer() {
           </nav>
 
           <div className={styles.social}>
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.facebook.com/nike" target="_blank" rel="noopener noreferrer">
               <FaFacebookF />
             </a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://x.com/nike" target="_blank" rel="noopener noreferrer">
               <FaTwitter />
             </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://instagram.com/nike" target="_blank" rel="noopener noreferrer">
               <FaInstagram />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/bra-moraes/" target="_blank" rel="noopener noreferrer">
               <FaLinkedinIn />
             </a>
           </div>
