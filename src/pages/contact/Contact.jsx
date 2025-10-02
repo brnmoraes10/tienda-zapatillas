@@ -171,7 +171,7 @@ export default function Contacto() {
     <div style={styles.container}>
       {/* SECCIÓN 1: FORMULARIO PARA CREAR CONTACTO */}
       <div style={styles.formContainer}>
-        <h1 style={styles.title}>Formulario de Contacto</h1>
+        <h1 style={styles.title}>Contactos Nike</h1>
         <form onSubmit={handleSubmit(onSubmit)}>
           <div style={styles.formGroup}>
             <label htmlFor="name" style={styles.label}>Nombre</label>

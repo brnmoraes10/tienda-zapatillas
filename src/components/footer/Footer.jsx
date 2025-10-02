@@ -13,7 +13,7 @@ export default function Footer() {
           <nav className={styles.nav}>
             <a href="/">Inicio</a>
             <a href="/sobre-nosotros">Sobre Nosotros</a>
-            <a href="/servicios">Servicios</a>
+            <a href="/productos">Productos</a>
             <a href="/contacto">Contacto</a>
           </nav>
 
