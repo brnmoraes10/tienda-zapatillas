@@ -1,0 +1,42 @@
+.testimonialsSection {
+  background-color: #f5f5f5;
+  padding: 3rem 1rem;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #111;
+  font-weight: 700;
+}
+
+.testimonialsContainer {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.testimonialCard {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  max-width: 300px;
+  padding: 1.5rem 1.25rem;
+  text-align: left;
+}
+
+.testimonialText {
+  font-style: italic;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.testimonialName {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #0078d7; /* un azul Nike-like */
+}

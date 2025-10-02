@@ -1,0 +1,28 @@
+.nosotrosContainer {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+}
+
+.aboutSection {
+  background-color: #e7f1ff;
+  padding: 2rem 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgb(0 120 215 / 0.15);
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.aboutSection h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.25rem;
+  color: #0078d7; /* azul Nike-like */
+}
+
+.aboutSection p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
