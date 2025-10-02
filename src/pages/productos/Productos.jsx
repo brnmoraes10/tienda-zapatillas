@@ -1,5 +1,3 @@
-// src/pages/productos/ProductList.jsx
-
 import React, { useState, useEffect } from 'react'; // Se mantienen los mismos imports
 import { Link } from 'react-router-dom';
 import { getItems } from '../../api/api';
@@ -9,7 +7,7 @@ const COLLECTION_NAME = 'productos';
 
 // A tu objeto de estilos original, le agregamos los estilos para el spinner
 const styles = {
-    container: { fontFamily: 'sans-serif', padding: '2rem', maxWidth: '1200px', margin: '0 auto' , height: '100vh' },
+    container: { fontFamily: 'sans-serif', padding: '2rem', maxWidth: '1200px', margin: '0 auto'},
     header: { display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '2rem' },
     title: { margin: 0 },
     addButton: { textDecoration: 'none', padding: '0.8rem 1.5rem', background: '#27ae60', color: 'white', borderRadius: '4px', fontSize: '1rem' },
@@ -57,7 +55,7 @@ export default function ProductList() {
             `}</style>
             
             <div style={styles.header}>
-                <h1 style={styles.title}>Nuestros Productos</h1>
+                <h1 style={styles.title}>Productos Nike</h1>
                 <Link to="/productos/nuevo" style={styles.addButton}>+ Agregar Producto</Link>
             </div>
 

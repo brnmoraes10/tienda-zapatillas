@@ -9,6 +9,7 @@ import Footer from './components/footer/Footer';
 import Productos from './pages/productos/Productos';
 import ProductDetail from './pages/productDetail/ProductDetail';
 import ProductCreate from './pages/productCreate/ProductCreate';
+import DetalleProducto from './pages/detalleProducto/DetalleProducto';
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
             <Route path="/productos" element={<Productos />} />
             <Route path="/productos/nuevo" element={<ProductCreate />} />
             <Route path="/producto/:id" element={<ProductDetail />} />
+            <Route path="/productos/:id" element={<DetalleProducto />} />
+
           </Routes>
         <Footer/>
       </BrowserRouter>
